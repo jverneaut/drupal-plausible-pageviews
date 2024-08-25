@@ -1,0 +1,6 @@
+name: 'Plausible pageviews'
+type: module
+description: 'Add a pageviews field that fetches data from Plausible Analytics.'
+package: Statistics
+core_version_requirement: ^10
+configure: plausible_pageviews.settings

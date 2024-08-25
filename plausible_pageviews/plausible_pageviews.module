@@ -1,0 +1,6 @@
+<?php
+
+function plausible_pageviews_cron() {
+  $api_service = \Drupal::service('plausible_pageviews.api_service');
+  $api_service->setPageviews();
+}

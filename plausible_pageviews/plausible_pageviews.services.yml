@@ -1,0 +1,4 @@
+services:
+  plausible_pageviews.api_service:
+    class: Drupal\plausible_pageviews\ApiService
+    arguments: ['@http_client', '@config.factory']

@@ -1,0 +1,5 @@
+plausible_pageviews.settings:
+  title: Plausible pageviews
+  parent: system.admin_config_system
+  route_name: plausible_pageviews.settings
+  weight: 10

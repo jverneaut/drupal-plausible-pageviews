@@ -1,0 +1,25 @@
+# Schema for the configuration files of the Plausible pageviews module.
+plausible_pageviews.settings:
+  type: config_object
+  label: 'Plausible pageviews settings'
+  mapping:
+    bearer_token:
+      type: string
+      label: 'Bearer token'
+
+    date_range:
+      type: string
+      label: 'Date range'
+
+    site_id:
+      type: string
+      label: 'Site id'
+
+field.value.plausible_pageviews:
+  type: mapping
+  label: Default value
+
+  mapping:
+    value:
+      type: label
+      label: Value

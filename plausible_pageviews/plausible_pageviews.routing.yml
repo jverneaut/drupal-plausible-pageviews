@@ -1,0 +1,7 @@
+plausible_pageviews.settings:
+  path: '/admin/config/system/plausible-pageviews'
+  defaults:
+    _title: 'Plausible pageviews'
+    _form: 'Drupal\plausible_pageviews\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
